@@ -30,9 +30,9 @@ h1{
 }
 #text{
     position: absolute;
-    top: 1020px;
+    top: 870px;
     width: 920px;
-    left: 280px;
+    left: 250px;
     
 }
 #Aboutme{
@@ -87,13 +87,13 @@ color: black;
 /* Skills */
 ----skills----
 #skills{
-    padding: 100px;
+    /* padding: 100px; */
     background:transparent;
     color:transparent;
     text-align: center;
     /* background: transparent; */
     color: white;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .rows{
     padding: 80px, 80px;
@@ -102,11 +102,11 @@ color: black;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.sub-titles{
-    font-size: 60px;
-    font-weight: 600;
+/* .sub-titles{
+    font-size: 20px;
+    font-weight: 20;
     color: blueviolet;
-}
+} */
 .sub-heading{
     font-size: 40px;
     font-weight: 300;
@@ -256,8 +256,8 @@ color: black;
     background:#111;
 }
 
-/*Contact*/
-html {
+Contact
+ html {
     height: 100%;
   }
   body {
@@ -268,7 +268,7 @@ html {
   }
   .login-box {
     position: absolute;
-    top: 910%;
+    top: 1165%;
     left: 50%;
     width: 400px;
     padding: 40px;
@@ -402,10 +402,23 @@ html {
     }
     50%,100% {
       bottom: 100%;
-    }
+    } 
   }
 
 #card-body{
     margin-left: auto;
     margin-right: auto;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 100vh;
+  text-align: center;
+  background-color: transparent;
+  padding: 10px;
+}
+footer{
+  margin: o;
 }
